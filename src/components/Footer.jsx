@@ -29,9 +29,9 @@ const Footer = () => {
             <MdEmail className="h-8 w-8 hover:text-gray-400 transition-colors" />
           </a>
         </div>
-        {/* <p className="mt-4 text-sm">
+        <p className="mt-4 text-sm">
           © {new Date().getFullYear()} Abhijit. All rights reserved.
-        </p> */}
+        </p>
       </div>
     </footer>
   );
