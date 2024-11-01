@@ -40,6 +40,8 @@ import second_project from "./projects/second_project.png";
 import third_project from "./projects/third_project.png";
 import fourth_project from "./projects/fourth_project.png";
 import fifth_project from "./projects/second_project.png";
+import fifth_project_image from "./projects/fifth_project_image.png";
+import sixth_project from "./projects/sixth_project.jpeg";
 
 import clientOne from "./clients/aryan.jpeg";
 import clientTwo from "./clients/jaye.jpeg";
@@ -84,6 +86,8 @@ export {
   third_project,
   fourth_project,
   fifth_project,
+  fifth_project_image,
+  sixth_project,
   clientOne,
   clientTwo,
   clientThree,

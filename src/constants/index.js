@@ -31,6 +31,8 @@ import {
   third_project,
   fourth_project,
   fifth_project,
+  fifth_project_image,
+  sixth_project,
 } from "../assets";
 
 export const navLinks = [
@@ -135,6 +137,7 @@ const experiences = [
       "Insight-Driven: Rely on deep research and user insights to guide design choices.",
       "Prototyping & Validation: Apply rigorous prototyping and testing to ensure functionality and engagement.",
     ],
+    certificate: "https://res.cloudinary.com/didzyox00/image/upload/v1730450354/DOC-20240522-WA0002._nubkfp.pdf"
   },
   {
     title: "GENERATIVE AI",
@@ -148,6 +151,7 @@ const experiences = [
       "Continuous Optimization: Regularly fine-tune AI systems to improve performance and alignment with user needs.",
       "Ethical AI Practices: Prioritize transparency, fairness, and responsible AI usage in all applications.",
     ],
+    certificate: "https://res.cloudinary.com/didzyox00/image/upload/v1730450353/CertificateOfCompletion_Career_Essentials_in_Generative_AI_by_Microsoft_and_LinkedIn_rl5ysa.pdf"
   },
   {
     title: "ETHICAL HACKING",
@@ -161,6 +165,7 @@ const experiences = [
       "Data Integrity Focus: Prioritize safeguarding sensitive data through robust security protocols.",
       "Continuous Monitoring: Employ ongoing analysis and threat detection for adaptive security.",
     ],
+    certificate: "https://res.cloudinary.com/didzyox00/image/upload/v1730450353/DOC-20241029-WA0036._sgv8z9.pdf"
   },
   {
     title: "MERN STACK Development",
@@ -182,27 +187,18 @@ const testimonials = [
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Abhijit proved me wrong.",
     name: "Aryan",
-    // designation: "CFO",
-    // company: "Acme Co",
-    // image: "https://randomuser.me/api/portraits/women/4.jpg",
     image: clientOne,
   },
   {
     testimonial:
       "I've never met a UX Designer who really cares about clients' success like Abhijit does.",
     name: "Lakshya",
-    // designation: "COO",
-    // company: "DEF Corp",
-    // image: "https://randomuser.me/api/portraits/men/5.jpg",
     image: clientTwo,
   },
   {
     testimonial:
       "A Eye Mouse is such a miscellaneous project yet helped many people with disabilities. Happily satisfied with the work.",
     name: "Jayeesmita",
-    // designation: "CTO",
-    // company: "456 Enterprises",
-    // image: "https://randomuser.me/api/portraits/women/6.jpg",
     image: clientThree,
   },
 ];
@@ -304,30 +300,25 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: fifth_project,
+    image: fifth_project_image,
     source_code_link: "https://3-d-model-frontend.vercel.app/",
   },
   {
-    name: "3D Modelling (UX)",
+    name: "Eye Mouse",
     description:
-      "A Scrolling page with screen popping 3D models without a single line of code using DORA.",
+      "Tired of old school mouse and feel lazy ? Gotcha ! Use your Eyes to surf through your device.",
     tags: [
       {
-        name: "Dora",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: " Ux",
+        name: "Webcam",
         color: "green-text-gradient",
       },
-      {
-        name: "3d",
-        color: "pink-text-gradient",
-      },
     ],
-    image: fifth_project,
-    source_code_link:
-      "https://github.com/PEGAZIZ/EYE-MOUSE.git",
+    image: sixth_project,
+    source_code_link: "https://github.com/PEGAZIZ/EYE-MOUSE.git",
   },
 ];
 

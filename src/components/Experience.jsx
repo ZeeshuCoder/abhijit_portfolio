@@ -11,6 +11,7 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import { Link } from "react-router-dom";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -42,7 +43,7 @@ const ExperienceCard = ({ experience }) => {
         </p>
       </div>
 
-      <ul className="mt-5 list-disc ml-5 space-y-2">
+      <ul className="mt-5 list-disc ml-5 space-y-2 mb-5">
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
@@ -52,6 +53,15 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+      {experience.certificate && (
+        <Link
+          to={experience.certificate}
+          target="_blank"
+          className="bg-white text-tertiary py-1 px-2 rounded-md"
+        >
+          View Certificate
+        </Link>
+      )}
     </VerticalTimelineElement>
   );
 };
