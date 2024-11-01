@@ -271,7 +271,7 @@ const projects = [
     ],
     image: third_project,
     source_code_link:
-      "https://7yomucmuxw.preview.dora.run/?project=1242379&device=Desktop&high-performance=true",
+      "https://viubewccd8.preview.dora.run/?page=PfYYy3inD&project=1242379&device=Desktop&high-performance=true",
   },
   {
     name: "Real Estate",
@@ -305,7 +305,7 @@ const projects = [
       },
     ],
     image: fifth_project,
-    source_code_link: "https://real-estate-nine-snowy.vercel.app/",
+    source_code_link: "https://3-d-model-frontend.vercel.app/",
   },
   {
     name: "3D Modelling (UX)",
@@ -327,7 +327,7 @@ const projects = [
     ],
     image: fifth_project,
     source_code_link:
-      "https://7yomucmuxw.preview.dora.run/?project=1242379&device=Desktop&high-performance=true",
+      "https://github.com/PEGAZIZ/EYE-MOUSE.git",
   },
 ];
 

@@ -134,32 +134,6 @@ const Contact = () => {
         </motion.div>
       </div>
       <Footer />
-      {/* <footer>
-        <p>Connect With Me</p>
-        <br />
-        <ul>
-          <li>
-            <Link to={""} target="_blank"></Link>
-          </li>
-          <li>
-            <Link
-              to={""}
-              target="_blank"
-            ></Link>
-          </li>
-          <li>
-            <Link
-              to={
-                ""
-              }
-              target="_blank"
-            ></Link>
-          </li>
-          <li>
-            <Link to={"deka.abhijit1204@gmail.com"} target="_blank"></Link>
-          </li>
-        </ul>
-      </footer> */}
     </>
   );
 };
